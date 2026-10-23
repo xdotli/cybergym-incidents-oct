@@ -1,0 +1,4 @@
+1.4.0  published 2026-10-02  notes: parser fix
+1.4.1  published 2026-10-14  notes: perf improvements
+1.4.2  published 2026-10-16  notes: revert 1.4.1 (unmaintained source)
+1.4.3  published 2026-10-18  notes: rebuilt from verified source

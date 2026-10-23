@@ -1,0 +1,46 @@
+{
+  "env": "cybergym-incidents-oct",
+  "description": "Eight more October-2026 incident classes as synthetic tasks (exposed secrets, planted keys, keys in logs, checksum swaps, rogue backup identities, PHP eval RCE, npm preinstall exfil, safe-release identification). Server-side hash verification.",
+  "tasks": [
+    {
+      "task_id": "exposed-status-secrets",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "planted-ssh-key",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "api-keys-in-logs",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "checksum-swap",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "backup-rogue-account",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "php-rce-url",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "npm-preinstall-exfil",
+      "split": "train",
+      "verify": "hash"
+    },
+    {
+      "task_id": "release-rollback",
+      "split": "train",
+      "verify": "hash"
+    }
+  ]
+}

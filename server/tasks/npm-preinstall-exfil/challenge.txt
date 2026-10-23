@@ -1,0 +1,2 @@
+This package's install hook exfiltrates a credentials file. Submit the
+exact destination URL it sends to.

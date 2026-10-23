@@ -1,0 +1,3 @@
+The 1.4.1 release came from a compromised build path and was reverted.
+The 1.4.3 line is the first rebuilt from verified source; 1.4.2 is the
+rollback of the bad release and contains no new code.

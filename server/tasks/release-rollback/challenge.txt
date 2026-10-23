@@ -1,0 +1,3 @@
+Read the release history. The last SAFE version built entirely from the
+original (uncompromised) pipeline is the rollback release. Submit its
+version number exactly (e.g. 1.4.0).

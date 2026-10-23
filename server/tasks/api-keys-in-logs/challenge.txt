@@ -1,0 +1,2 @@
+A CLI tool logged full API keys at debug level. Exactly one of them was
+live (the request that succeeded). Submit that key exactly.

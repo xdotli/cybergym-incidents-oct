@@ -1,0 +1,2 @@
+Oct 20 03:12:02 bastion sshd[41233]: Accepted publickey for deploy from 198.51.100.77 port 51022 ssh2: Ed25519 SHA256:9k2mQv7XRp4Ld8Zn1cB3eF6aH0sJ5uT2wY4iO8pA7bC
+Oct 20 03:12:09 bastion sshd[41233]: subsystem request for sftp

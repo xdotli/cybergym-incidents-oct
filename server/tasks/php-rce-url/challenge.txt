@@ -1,0 +1,4 @@
+index.php evals whatever arrives in the render parameter. Craft the exact
+VALUE of ?render= that reads secret.php and prints its comment marker.
+Run it locally (php -S is available: `php -S 127.0.0.1:8080 -t www`)
+and submit the printed marker exactly.

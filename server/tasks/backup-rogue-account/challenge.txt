@@ -1,0 +1,4 @@
+Cloud backup identities were compromised: a rogue account was added to
+the backup configuration and is NOT a legitimate service account in the
+directory (and was created mid-incident). Submit the rogue account name
+exactly as written in backup-config.yaml (after CORP\).

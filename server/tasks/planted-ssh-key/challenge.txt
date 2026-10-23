@@ -1,0 +1,3 @@
+An intruder added their key to authorized_keys and used it (see auth.log).
+Submit the FINGERPRINT of the attacker's key, exactly as it appears in the
+log (SHA256:... form).

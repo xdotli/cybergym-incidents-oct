@@ -1,0 +1,3 @@
+The v2.3.1 release was rebuilt on a compromised builder. One binary
+changed its checksum between v2.3.0 and v2.3.1; every other artifact is
+byte-identical across the two releases.

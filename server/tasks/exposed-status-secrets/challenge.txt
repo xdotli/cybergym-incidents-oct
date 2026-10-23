@@ -1,0 +1,2 @@
+A public status endpoint accidentally embedded an internal deploy token.
+Find the token in status.json and submit it exactly.

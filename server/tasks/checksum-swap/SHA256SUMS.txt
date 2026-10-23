@@ -1,0 +1,4 @@
+v2.3.0  4a1f9c2e8b7d6305aaaa1111  ovhctl
+v2.3.0  bb90d1f27e4c6305aaaa2222  ovhctl-helper
+v2.3.1  7c3e5a9d1b2f8406bbbb3333  ovhctl
+v2.3.1  bb90d1f27e4c6305aaaa2222  ovhctl-helper

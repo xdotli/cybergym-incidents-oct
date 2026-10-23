@@ -1,0 +1,8 @@
+backup_targets:
+  - account: CORP\backup-svc
+    scope: full
+  - account: CORP\audit-ro
+    scope: read-only
+  - account: CORP\svc-bkp7781$
+    scope: full
+    note: added 2026-10-14 by hotfix

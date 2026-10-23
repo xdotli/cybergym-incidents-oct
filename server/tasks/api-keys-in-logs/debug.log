@@ -1,0 +1,5 @@
+[02:11:04] request headers: authorization=Bearer sk-ant-api03-DEAD-test-0000000000000000
+[02:11:05] provider=anthropic status=401 (test key rejected)
+[02:12:41] request headers: authorization=Bearer sk-ant-api03-7kQ9m2vX4zR8pL1cD6fH3jT
+[02:12:42] provider=anthropic status=200
+[02:14:02] request headers: authorization=Bearer sk-ant-api03-DEAD-test-1111111111111111

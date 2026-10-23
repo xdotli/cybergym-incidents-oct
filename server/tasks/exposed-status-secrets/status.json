@@ -1,0 +1,8 @@
+{
+ "status": "degraded",
+ "region": "us-east",
+ "internal": {
+  "deploy_token": "rwy_live_9f3k2m8dQ7xV4nBz",
+  "db_host": "10.0.0.9"
+ }
+}
